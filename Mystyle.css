@@ -1,0 +1,179 @@
+.neonText {
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+    text-align: center;
+    text-transform: uppercase;  
+    font-weight: 400;
+}
+.neonText2 {
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(0, 225, 255),
+      0 0 82px rgb(0, 225, 255),
+      0 0 92px rgb(0, 225, 255),
+      0 0 102px rgb(0, 225, 255),
+      0 0 151px rgb(0, 225, 255);
+    text-align: center;
+    text-transform: uppercase;  
+    font-weight: 400;
+}
+
+h1 {
+  font-size: 4.2rem;
+  animation: flicker 1.5s infinite alternate;     
+}
+
+/* Flickering animation */
+@keyframes flicker {
+    
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #0fa,
+      0 0 80px #0fa,
+      0 0 90px #0fa,
+      0 0 100px #0fa,
+      0 0 150px #0fa;
+  
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+  }    
+}
+
+
+/* Additional styling */
+  
+h2 {
+ font-size: 1.8rem;
+}
+.container {
+  margin-top: 20vh;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Helvetica Neue", sans-serif;
+}  
+
+/* unvisited link */
+a:link {
+  color: rgb(0, 225, 255);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(0, 225, 255);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(0, 250, 250);
+}
+
+/* selected link */
+a:active {
+  color: rgb(0, 225, 255);
+}
+
+#cockpit{
+    padding-top: 10vw;
+}
+.see-text{
+    color:aliceblue;
+    font-size: 10vw;
+    font-style: bolder;
+}
+#CHP2-text{
+    padding-top: 30vw;
+    text-align: center;
+    color: dimgray;
+    font-size: 5vw;
+}
+#CHP4-text{
+    padding-top: 15vw;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 5vw;
+}
+#CHP4b-text{
+    padding-top: 3vw;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 5vw;
+}
+#CHP5-text{
+    padding-top: 15vw;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 4vw;
+}
+#CHP6-text{
+    padding-top: 15vw;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 4vw;
+}
+span{
+    color: palegoldenrod;
+    font-style: bolder;
+}
+
+h6{ 
+align:
+}
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.img-size{
+    width: 5vw;
+    Height: 5vw;
+}
+.center{
+    text-align: center;
+}
+img {
+    height: 50%;
+    width: 50%;
+}
+.ending {
+    padding: 20%;
+}
